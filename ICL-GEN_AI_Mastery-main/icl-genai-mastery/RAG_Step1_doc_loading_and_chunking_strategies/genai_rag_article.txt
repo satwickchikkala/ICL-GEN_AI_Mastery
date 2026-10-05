@@ -1,0 +1,67 @@
+
+Generative Artificial Intelligence
+
+Generative AI is a branch of artificial intelligence that can create
+new content such as text, images, audio, video, and computer code.
+Unlike traditional AI systems that mainly analyze existing data,
+generative AI can produce new content based on patterns learned from
+large datasets.
+
+Large Language Models
+
+Large Language Models, also known as LLMs, are machine learning models
+trained on large amounts of text data. They can understand questions,
+generate text, summarize information, translate languages, and assist
+with programming tasks.
+
+Transformers
+
+Transformers are neural network architectures widely used in modern
+language models. They use an attention mechanism to understand the
+relationship between different words in a sequence. Transformers have
+become an important foundation for many modern language models.
+
+Prompt Engineering
+
+Prompt engineering is the process of designing effective instructions
+for an AI model. A well-designed prompt can provide the model with
+clear context, instructions, constraints, and the expected output
+format. Good prompts can improve the quality and usefulness of AI
+responses.
+
+Retrieval Augmented Generation
+
+Retrieval Augmented Generation, or RAG, combines information retrieval
+with language generation. Instead of depending only on the knowledge
+stored inside a language model, RAG retrieves relevant information from
+external documents and provides that information to the language model
+as context.
+
+Document Chunking
+
+Document chunking is the process of dividing a large document into
+smaller pieces called chunks. Chunking is important in RAG systems
+because smaller chunks can be efficiently converted into embeddings,
+stored in a vector database, and retrieved when a user asks a question.
+
+Embeddings
+
+Embeddings are numerical representations of text. Text with similar
+meaning is represented by vectors that are close to each other in the
+embedding space. Embeddings allow RAG systems to perform semantic
+similarity searches.
+
+Vector Databases
+
+Vector databases are specialized databases designed to store and
+search vector embeddings efficiently. In a RAG system, document chunks
+are converted into embeddings and stored in a vector database. When a
+user asks a question, the system searches for the most relevant chunks.
+
+RAG Workflow
+
+A typical RAG system first loads documents, divides them into chunks,
+creates embeddings for those chunks, and stores them in a vector
+database. When a user submits a query, the query is also converted into
+an embedding. The system retrieves the most relevant document chunks
+and provides them to a language model to generate the final response.
